@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server",
+    "prod": "webpack -p"
   },
-  "author": "",
+  "author": "Marty McLaughlin <martymclaugh@gmail.com> (http://martymclaugh.com)",
   "license": "ISC",
   "dependencies": {
     "react": "^15.4.0",
