@@ -4,14 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server",
+    "start": "webpack-dev-server --host",
     "prod": "webpack -p"
   },
   "author": "Marty McLaughlin <martymclaugh@gmail.com> (http://martymclaugh.com)",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.15.2",
     "react": "^15.4.0",
-    "react-dom": "^15.4.0"
+    "react-dom": "^15.4.0",
+    "react-router": "^3.0.0"
   },
   "devDependencies": {
     "babel-core": "^6.18.2",
